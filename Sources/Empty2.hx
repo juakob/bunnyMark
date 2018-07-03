@@ -269,11 +269,11 @@ class Empty2
 			for (i in 0...drawCount) 
 			{
 				var bunny = bunnies[i+offset];
-				uvs.set(i  * 4 + 0, 0);
-				uvs.set(i  * 4 + 1, 0);
+				uvs.set(i  * 4 + 0, 0);//uv offset
+				uvs.set(i  * 4 + 1, 0);//uv offset
 				
-				uvs.set(i  * 4 + 2, 1);
-				uvs.set(i  * 4 + 3, 1);
+				uvs.set(i  * 4 + 2, 1);//uv scale
+				uvs.set(i  * 4 + 3, 1);//uv scale
 
 				transforms.set(i * 6 + 0, 26);
 				transforms.set(i * 6 + 1, 0);
