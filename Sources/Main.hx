@@ -17,7 +17,7 @@ class Main
     
         System.init({title:"BynnyMark", width:SCREEN_W, height:SCREEN_H}, function():Void 
         {
-            new Empty();
+            new Empty2();
         });
     }
 }
